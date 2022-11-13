@@ -36,7 +36,7 @@ body {
 }
 
 body {
-  color: #3D3745;
+  color: #3d3745;
   line-height: 1;
   font-family: "GTWalsheimPro";
   font-size: 0.875rem;
@@ -275,6 +275,10 @@ h6 {
   color: #3d3745;
 }
 
+.hero__title span {
+  color: #fff;
+}
+
 .hero__data {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,11 +341,10 @@ h6 {
 }
 
 .no-webp .attraction__top{
-  background: url("../img/attraction.png") 0 0 no-repeat; }
+  background: url("../img/attraction.png") center/cover no-repeat; }
 
 .attraction__top {
   background-size: cover;
-  background-position: center;
   margin: 0 auto;
   width: 100%;
   border-radius: 0.8125rem;
@@ -520,12 +523,6 @@ h6 {
   }
 }
 
-@media (min-width: 85.3125em) {
-  .hero__title span {
-    color: #fff;
-  }
-}
-
 @media (min-width: 87.1875em) {
   ._title {
     font-size: 3.375rem;
@@ -690,7 +687,7 @@ h6 {
   }
 
   .use__image._image-top {
-    left: -0.625rem;
+    left: -0.625rem !important;
   }
 }
 
@@ -805,6 +802,10 @@ h6 {
     margin-top: 0;
   }
 
+  .hero__title span {
+    color: #3d3745;
+  }
+
   .hero__images {
     margin-top: 0;
   }
@@ -817,16 +818,16 @@ h6 {
   }
 
   .use__top-data {
-    padding-right: 0;
+    padding-right: 0 !important;
     padding-bottom: 7.5rem;
   }
 
   .use__bottom-data {
-    padding-left: 0;
+    padding-left: 0 !important;
   }
 
   .use__image._image-top {
-    top: -6.25rem;
+    top: -6.25rem !important;
   }
 }
 
@@ -1346,4 +1347,4 @@ h6 {
   }
 }
 
-.webp .attraction__top{ background: url(../img/attraction.webp) 0 0 no-repeat; }
+.webp .attraction__top{ background: url(../img/attraction.webp) center/cover no-repeat; }
