@@ -1,217 +1,341 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<title>Главная</title>
+		<meta charset="UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="css/style.min.css?_v=20230119231849" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="preload"
+			href="../fonts/GTWalsheimPro-Regular.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+	</head>
 
-<head>
-	<title>Главная</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20230119231849">
-	<link rel="shortcut icon" href="favicon.ico">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preload" href="../fonts/GTWalsheimPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
-</head>
-
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<div class="header__logo">
-					<img src="img/logo.svg" alt="logo" />
-				</div>
-				<div class="header__data">
-					<div class="header__socials socials">
-						<a href="#" class="socials__item">
-							<img src="img/icons/twitter.svg" alt="twitter icon" />
-						</a>
-						<a href="#" class="socials__item">
-							<img src="img/icons/discord.svg" alt="twitter icon" />
-						</a>
-						<a href="#" class="socials__item">
-							<img src="img/icons/linkedin.svg" alt="twitter icon" />
-						</a>
-					</div>
-					<a href="#" data-popup="#popup" class="header__button button">Join waitlist</a>
-				</div>
-			</div>
-		</header>
-
-		<main class="page">
-			<section class="hero">
-				<div class="hero__container">
-					<div class="hero__decor">
-						<picture><source srcset="img/hero-decor.webp" type="image/webp"><img src="img/hero-decor.png" alt="image" /></picture>
-					</div>
-					<div class="hero__body">
-						<div class="hero__title">Community powered fas<span>hion</span></div>
-						<div class="hero__button--mobile">
-							<a href="#" data-popup="#popup" class="button">Join waitlist</a>
-						</div>
-						<div class="hero__data">
-							<div class="hero__info">
-								<ul class="hero__info-list">
-									<li class="hero__info-item">Can no one see your posts?</li>
-									<li class="hero__info-item">Hit a ceiling with your sales and those expensive ads just stopped working?</li>
-									<li class="hero__info-item">Don't know what to do and nobody there to help you grow?</li>
-									<li class="hero__info-item">No money for your new collection?</li>
-								</ul>
-							</div>
-							<div class="hero__images">
-								<div class="hero__image _image-top">
-									<picture><source srcset="img/hero-1.webp" type="image/webp"><img src="img/hero-1.png" alt="" /></picture>
-								</div>
-								<div class="hero__image _image-middle">
-									<picture><source srcset="img/hero-2.webp" type="image/webp"><img src="img/hero-2.png" alt="" /></picture>
-								</div>
-								<div class="hero__image _image-bottom">
-									<picture><source srcset="img/hero-3.webp" type="image/webp"><img src="img/hero-3.png" alt="" /></picture>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="attraction">
-				<div class="attraction__container">
-					<div class="attraction__top">
-						<div class="attraction__title">Engage your superfans</div>
-						<div class="attraction__image-decor">
-							<picture><source srcset="img/attraction-phone.webp" type="image/webp"><img src="img/attraction-phone.png" alt="phone" /></picture>
-						</div>
-					</div>
-					<div class="attraction__data">
-						<div class="attraction__text">With Terra Ferra your most active fans won`t miss a word from you anymore.And they`re not here just to send you likes—they`re here to help you grow, sell more, do more and become more successful than ever.</div>
-						<a href="#" class="attraction__button button">Join waitlist</a>
-					</div>
-				</div>
-			</section>
-
-			<section class="video">
-				<div class="video__container">
-					<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="lnem6HRns_Y"></div>
-					<div class="video__decor-img video__decor-top">
-						<picture><source srcset="img/video-decoration-1.webp" type="image/webp"><img src="img/video-decoration-1.png" alt="" /></picture>
-					</div>
-					<div class="video__decor-img video__decor-bottom">
-						<picture><source srcset="img/video-decoration-2.webp" type="image/webp"><img src="img/video-decoration-2.png" alt="" /></picture>
-					</div>
-				</div>
-			</section>
-
-			<section class="use">
-				<div class="use__container">
-					<div class="use__wrapper">
-						<div class="use__top-data">
-							<div class="use__title _title">Get a new angle</div>
-							<div class="use__subtitle _subtitle">
-								Are you aware of how much potential and talent you leave untapped? We`ll help you build an aligned team of co-creators and experts working for shares of your future revenue instead of upfront payment. And you can now get help from people you can`t yet afford to hire.
-							</div>
-						</div>
-						<div class="use__images">
-							<div class="use__main-image">
-								<div class="use__image _image-middle">
-									<picture><source srcset="img/use-image-middle.webp" type="image/webp"><img src="img/use-image-middle.png" alt="image" /></picture>
-								</div>
-								<div class="use__image _image-top">
-									<picture><source srcset="img/use-image-top.webp" type="image/webp"><img src="img/use-image-top.png" alt="" /></picture>
-								</div>
-								<div class="use__image _image-bottom">
-									<picture><source srcset="img/use-image-bottom.webp" type="image/webp"><img src="img/use-image-bottom.png" alt="" /></picture>
-								</div>
-							</div>
-						</div>
-						<div class="use__bottom-data">
-							<div class="use__title _title">Get funded</div>
-							<div class="use__subtitle _subtitle">Don`t worry about overstocking: at Terra Ferrayou can initiate early pre-orders and crowdfund your future collections. Making just the items that sell is good, but not only for your business—the planet will thank you too.</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="boost">
-				<div class="boost__container">
-					<div class="boost__data">
-						<div class="boost__title _title">Boost your sales</div>
-						<div class="boost__subtitle _subtitle">You’ll be amazed at how smooth your progress becomes when you gamify your promotions and content creation.</div>
-					</div>
-					<div class="boost__image">
-						<picture><source srcset="img/boost-image.webp" type="image/webp"><img src="img/boost-image.png" alt="image" /></picture>
-						<div class="boost__image-decor">
-							<picture><source srcset="img/boost-image-decor.webp" type="image/webp"><img src="img/boost-image-decor.png" alt="image" /></picture>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="final">
-				<div class="final__container">
-					<div class="final__wrapper">
-						<div class="final__data">
-							<p class="final__text _subtitle">With all the support and insight your superfans are able to give, both your life and business can't help but bloom.</p>
-							<p class="final__text _subtitle">Are you ready to see what you're really capable of?</p>
-						</div>
-
-						<a href="#" class="final__button button">Join waitlist</a>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__wrapper">
-					<div class="footer__logo">
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__logo">
 						<img src="img/logo.svg" alt="logo" />
 					</div>
-					<div class="footer__socials socials">
-						<a href="#" class="socials__item">
-							<img src="img/icons/twitter.svg" alt="twitter icon" />
-						</a>
-						<a href="#" class="socials__item">
-							<img src="img/icons/discord.svg" alt="twitter icon" />
-						</a>
-						<a href="#" class="socials__item">
-							<img src="img/icons/linkedin.svg" alt="twitter icon" />
-						</a>
-					</div>
-					<div class="footer__items">
-						<a href="/policy.html" class="footer__item">privacy policy</a>
-						<span class="footer__item">TERRA FERRA © 2022</span>
+					<div class="header__data">
+						<div class="header__socials socials">
+							<a href="#" class="socials__item">
+								<img src="img/icons/twitter.svg" alt="twitter icon" />
+							</a>
+							<a href="#" class="socials__item">
+								<img src="img/icons/discord.svg" alt="twitter icon" />
+							</a>
+							<a href="#" class="socials__item">
+								<img src="img/icons/linkedin.svg" alt="twitter icon" />
+							</a>
+						</div>
+						<a href="#" data-popup="#popup" class="header__button button"
+							>Join waitlist</a
+						>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</header>
 
-		<div class="cookies">
-			<div class="cookies__title">Cookie Consent</div>
-			<p class="cookies__text">This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our <a href="fsdf"></a></p>
-			<button type="button" class="cookies__button">Accept</button>
-		</div>
-
-	</div>
-	<div id="popup" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">
-					<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M9.08439 7.95729L6.39055 5.26345L8.96497 2.68903C9.12506 2.52894 9.21143 2.30957 9.20636 2.08009C9.2013 1.85082 9.10549 1.63009 8.94108 1.46568C8.77667 1.30126 8.55594 1.20545 8.32666 1.20039C8.09718 1.19533 7.87782 1.2817 7.71772 1.44179L5.14331 4.01621L2.44947 1.32237C2.28506 1.15795 2.06432 1.06214 1.83505 1.05708C1.60557 1.05202 1.38621 1.13839 1.22611 1.29848C1.06602 1.45857 0.979649 1.67794 0.984714 1.90742C0.989776 2.13669 1.08559 2.35743 1.25 2.52184L3.94384 5.21568L1.36942 7.79009C1.20933 7.95019 1.12296 8.16955 1.12802 8.39903C1.13309 8.6283 1.2289 8.84904 1.39331 9.01345C1.55772 9.17786 1.77845 9.27367 2.00773 9.27873C2.23721 9.2838 2.45657 9.19743 2.61666 9.03733L5.19108 6.46292L7.88492 9.15676C8.04933 9.32117 8.27006 9.41698 8.49934 9.42204C8.72882 9.42711 8.94818 9.34074 9.10828 9.18064C9.26837 9.02055 9.35474 8.80119 9.34967 8.5717C9.34461 8.34243 9.2488 8.1217 9.08439 7.95729Z" fill="white" stroke="white" stroke-width="0.2" />
-					</svg>
-				</button>
-
-				<form action="files/sendmail/sendmail.php" class="form" method="POST">
-					<input autocomplete="off" type="text" name="form[]" placeholder="Name" class="input" data-required="text" />
-					<input autocomplete="off" type="email" name="form[]" placeholder="Email" class="input" data-required="email" />
-					<div class="form__row">
-						<input type="checkbox" class="input checkbox" id="cb1" data-required="checkbox" />
-						<label for="cb1">I agree to <a href="#">Privacy Policy and Terms of Service</a>
-						</label>
+			<main class="page">
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__decor">
+							<picture
+								><source srcset="img/hero-decor.webp" type="image/webp" />
+								<img src="img/hero-decor.png" alt="image"
+							/></picture>
+						</div>
+						<div class="hero__body">
+							<div class="hero__title">
+								Community powered fas<span>hion</span>
+							</div>
+							<div class="hero__button--mobile">
+								<a href="#" data-popup="#popup" class="button">Join waitlist</a>
+							</div>
+							<div class="hero__data">
+								<div class="hero__info">
+									<ul class="hero__info-list">
+										<li class="hero__info-item">Can no one see your posts?</li>
+										<li class="hero__info-item">
+											Hit a ceiling with your sales and those expensive ads just
+											stopped working?
+										</li>
+										<li class="hero__info-item">
+											Don't know what to do and nobody there to help you grow?
+										</li>
+										<li class="hero__info-item">
+											No money for your new collection?
+										</li>
+									</ul>
+								</div>
+								<div class="hero__images">
+									<div class="hero__image _image-top">
+										<picture
+											><source srcset="img/hero-1.webp" type="image/webp" />
+											<img src="img/hero-1.png" alt=""
+										/></picture>
+									</div>
+									<div class="hero__image _image-middle">
+										<picture
+											><source srcset="img/hero-2.webp" type="image/webp" />
+											<img src="img/hero-2.png" alt=""
+										/></picture>
+									</div>
+									<div class="hero__image _image-bottom">
+										<picture
+											><source srcset="img/hero-3.webp" type="image/webp" />
+											<img src="img/hero-3.png" alt=""
+										/></picture>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="form__button">
-						<input type="submit" class="button" value='Join Waitlist'></input>
+				</section>
+
+				<section class="attraction">
+					<div class="attraction__container">
+						<div class="attraction__top">
+							<div class="attraction__title">Engage your superfans</div>
+							<div class="attraction__image-decor">
+								<picture
+									><source
+										srcset="img/attraction-phone.webp"
+										type="image/webp" />
+									<img src="img/attraction-phone.png" alt="phone"
+								/></picture>
+							</div>
+						</div>
+						<div class="attraction__data">
+							<div class="attraction__text">
+								With Terra Ferra your most active fans won`t miss a word from
+								you anymore.And they`re not here just to send you likes—they`re
+								here to help you grow, sell more, do more and become more
+								successful than ever.
+							</div>
+							<a href="#" class="attraction__button button">Join waitlist</a>
+						</div>
 					</div>
-				</form>
+				</section>
+
+				<section class="video">
+					<div class="video__container">
+						<div
+							id="player"
+							data-plyr-provider="youtube"
+							data-plyr-embed-id="lnem6HRns_Y"
+						></div>
+						<div class="video__decor-img video__decor-top">
+							<picture
+								><source
+									srcset="img/video-decoration-1.webp"
+									type="image/webp" />
+								<img src="img/video-decoration-1.png" alt=""
+							/></picture>
+						</div>
+						<div class="video__decor-img video__decor-bottom">
+							<picture
+								><source
+									srcset="img/video-decoration-2.webp"
+									type="image/webp" />
+								<img src="img/video-decoration-2.png" alt=""
+							/></picture>
+						</div>
+					</div>
+				</section>
+
+				<section class="use">
+					<div class="use__container">
+						<div class="use__wrapper">
+							<div class="use__top-data">
+								<div class="use__title _title">Get a new angle</div>
+								<div class="use__subtitle _subtitle">
+									Are you aware of how much potential and talent you leave
+									untapped? We`ll help you build an aligned team of co-creators
+									and experts working for shares of your future revenue instead
+									of upfront payment. And you can now get help from people you
+									can`t yet afford to hire.
+								</div>
+							</div>
+							<div class="use__images">
+								<div class="use__main-image">
+									<div class="use__image _image-middle">
+										<picture
+											><source
+												srcset="img/use-image-middle.webp"
+												type="image/webp" />
+											<img src="img/use-image-middle.png" alt="image"
+										/></picture>
+									</div>
+									<div class="use__image _image-top">
+										<picture
+											><source
+												srcset="img/use-image-top.webp"
+												type="image/webp" />
+											<img src="img/use-image-top.png" alt=""
+										/></picture>
+									</div>
+									<div class="use__image _image-bottom">
+										<picture
+											><source
+												srcset="img/use-image-bottom.webp"
+												type="image/webp" />
+											<img src="img/use-image-bottom.png" alt=""
+										/></picture>
+									</div>
+								</div>
+							</div>
+							<div class="use__bottom-data">
+								<div class="use__title _title">Get funded</div>
+								<div class="use__subtitle _subtitle">
+									Don`t worry about overstocking: at Terra Ferrayou can initiate
+									early pre-orders and crowdfund your future collections. Making
+									just the items that sell is good, but not only for your
+									business—the planet will thank you too.
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="boost">
+					<div class="boost__container">
+						<div class="boost__data">
+							<div class="boost__title _title">Boost your sales</div>
+							<div class="boost__subtitle _subtitle">
+								You’ll be amazed at how smooth your progress becomes when you
+								gamify your promotions and content creation.
+							</div>
+						</div>
+						<div class="boost__image">
+							<picture
+								><source srcset="img/boost-image.webp" type="image/webp" />
+								<img src="img/boost-image.png" alt="image"
+							/></picture>
+							<div class="boost__image-decor">
+								<picture
+									><source
+										srcset="img/boost-image-decor.webp"
+										type="image/webp" />
+									<img src="img/boost-image-decor.png" alt="image"
+								/></picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="final">
+					<div class="final__container">
+						<div class="final__wrapper">
+							<div class="final__data">
+								<p class="final__text _subtitle">
+									With all the support and insight your superfans are able to
+									give, both your life and business can't help but bloom.
+								</p>
+								<p class="final__text _subtitle">
+									Are you ready to see what you're really capable of?
+								</p>
+							</div>
+
+							<a href="#" class="final__button button">Join waitlist</a>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__wrapper">
+						<div class="footer__logo">
+							<img src="img/logo.svg" alt="logo" />
+						</div>
+						<div class="footer__socials socials">
+							<a href="#" class="socials__item">
+								<img src="img/icons/twitter.svg" alt="twitter icon" />
+							</a>
+							<a href="#" class="socials__item">
+								<img src="img/icons/discord.svg" alt="twitter icon" />
+							</a>
+							<a href="#" class="socials__item">
+								<img src="img/icons/linkedin.svg" alt="twitter icon" />
+							</a>
+						</div>
+						<div class="footer__items">
+							<a href="/policy.html" class="footer__item">privacy policy</a>
+							<span class="footer__item">TERRA FERRA © 2022</span>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div class="cookies">
+				<div class="cookies__title">Cookie Consent</div>
+				<p class="cookies__text">
+					This website uses cookies or similar technologies, to enhance your
+					browsing experience and provide personalized recommendations. By
+					continuing to use our website, you agree to our <a href="fsdf"></a>
+				</p>
+				<button type="button" class="cookies__button">Accept</button>
 			</div>
 		</div>
-	</div>
-	<script src="js/app.min.js?_v=20230119233250"></script>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg
+							width="10"
+							height="10"
+							viewBox="0 0 10 10"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M9.08439 7.95729L6.39055 5.26345L8.96497 2.68903C9.12506 2.52894 9.21143 2.30957 9.20636 2.08009C9.2013 1.85082 9.10549 1.63009 8.94108 1.46568C8.77667 1.30126 8.55594 1.20545 8.32666 1.20039C8.09718 1.19533 7.87782 1.2817 7.71772 1.44179L5.14331 4.01621L2.44947 1.32237C2.28506 1.15795 2.06432 1.06214 1.83505 1.05708C1.60557 1.05202 1.38621 1.13839 1.22611 1.29848C1.06602 1.45857 0.979649 1.67794 0.984714 1.90742C0.989776 2.13669 1.08559 2.35743 1.25 2.52184L3.94384 5.21568L1.36942 7.79009C1.20933 7.95019 1.12296 8.16955 1.12802 8.39903C1.13309 8.6283 1.2289 8.84904 1.39331 9.01345C1.55772 9.17786 1.77845 9.27367 2.00773 9.27873C2.23721 9.2838 2.45657 9.19743 2.61666 9.03733L5.19108 6.46292L7.88492 9.15676C8.04933 9.32117 8.27006 9.41698 8.49934 9.42204C8.72882 9.42711 8.94818 9.34074 9.10828 9.18064C9.26837 9.02055 9.35474 8.80119 9.34967 8.5717C9.34461 8.34243 9.2488 8.1217 9.08439 7.95729Z"
+								fill="white"
+								stroke="white"
+								stroke-width="0.2"
+							/>
+						</svg>
+					</button>
 
-</body>
-
+					<form action="files/sendmail/sendmail.php" class="form" method="POST">
+						<input
+							autocomplete="off"
+							type="text"
+							name="form[]"
+							placeholder="Name"
+							class="input"
+							data-required="text"
+						/>
+						<input
+							autocomplete="off"
+							type="email"
+							name="form[]"
+							placeholder="Email"
+							class="input"
+							data-required="email"
+						/>
+						<div class="form__row">
+							<input
+								type="checkbox"
+								class="input checkbox"
+								id="cb1"
+								data-required="checkbox"
+							/>
+							<label for="cb1"
+								>I agree to <a href="#">Privacy Policy and Terms of Service</a>
+							</label>
+						</div>
+						<div class="form__button">
+							<input type="submit" class="button" value="Join Waitlist" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/app.min.js?_v=20230130115347"></script>
+	</body>
 </html>
